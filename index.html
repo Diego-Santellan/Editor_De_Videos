@@ -7,6 +7,8 @@
     <title>Ivan Espinosa</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -14,9 +16,11 @@
 
 <body>
     <header class="p-1 d-flex flex-column justify-content-center">
-        <h1>Ivan Espinosa</h1>
-        <h2>Especialista en Edición de Video para Redes Sociales</h2>
-        <p>Tu historia, nuestra edición. Juntos, creamos contenido que brilla.</p>
+        <div data-aos="zoom-in">
+            <h1>Ivan Espinosa</h1>
+            <h2>Especialista en Edición de Video para Redes Sociales</h2>
+            <p>Tu historia, nuestra edición. Juntos, creamos contenido que brilla.</p>
+        </div>
     </header>
     <nav class="w-100 navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -48,7 +52,7 @@
     </nav>
     <main class="d-flex flex-row justify-content-center">
         <div id="content">
-            <section id="aboutMe" class="d-flex flex-column align-items-center">
+            <section id="aboutMe" class="d-flex flex-column align-items-center" data-aos="zoom-in">
                 <h3>Sobre Mi</h3>
                 <p>Soy Especialista en Edición de Video para Redes Sociales. Ayudo a creadoores, influencers y
                     emprendedores a darle vida a sus ideas.</p>
@@ -58,7 +62,7 @@
                     redes sociales. Creo piezas excepcionales que destacan y <b>conectan de manera impactante</b> con tu
                     audiencia.</p>
             </section>
-            <section id="portfolio" class="text-light">
+            <section id="portfolio" class="text-light" data-aos="zoom-in">
                 <h3 class="pb-4 d-flex flex-column align-items-center">Portfolio</h3>
                 <div>
                     <video controls>
@@ -90,7 +94,7 @@
                             trabajos</a></button>
                 </div>
             </section>
-            <section id="sendEmail">
+            <section id="sendEmail" data-aos="zoom-in">
                 <div id="sendEmails" class="d-flex flex-column p-3 m-3 rounded">
                     <h3 class="p-2">Enviar correo electronico</h3>
                     <form class="d-flex flex-column align-items-center" action="https://formsubmit.co/Ivanbmthbvb@gmail.com" method="POST">
@@ -122,7 +126,14 @@
                 Copyright &copy; <span id="copyright-year"></span>.<br>
                 Todos los derechos reservados</p>
         </div>
-    </footer>
+    </footer>   
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
