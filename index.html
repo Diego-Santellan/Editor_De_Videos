@@ -20,7 +20,7 @@
     </header>
     <nav class="w-100 navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><b>Ivan Espinosa</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,21 +28,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link fs-6 active" aria-current="page" href="#">Inicio</a>
+                        <a id="aNavbar" class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="#aboutMe">Sobre mi</a>
+                        <a id="aNavbar" class="nav-link" href="#aboutMe">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="#portfolio">Portfolio</a>
+                        <a id="aNavbar" class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="page/gallery.html">Galeria</a>
+                        <a id="aNavbar" class="nav-link" href="page/gallery.html">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="#sendEmails">Contacto</a>
+                        <a id="aNavbar" class="nav-link" href="#sendEmails">Contacto</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -59,21 +58,6 @@
                     redes sociales. Creo piezas excepcionales que destacan y <b>conectan de manera impactante</b> con tu
                     audiencia.</p>
             </section>
-            <section id="services">
-                <h3 class="d-flex flex-column align-items-center">Servicios</h3>
-                <div><!-- class="d-flex justify-content-around" -->
-                    <ul>
-                        <li>Servicio 1</li>
-                        <li>Servicio 2</li>
-                        <li>Servicio 3</li>
-                        <li>Servicio 4</li>
-                    </ul>
-                    <video controls>
-                        <source src="image/" type="video/mp4">
-                        Tu navegador no soporta el tag de video.
-                    </video>
-                </div>
-            </section>
             <section id="portfolio" class="text-light">
                 <h3 class="pb-4 d-flex flex-column align-items-center">Portfolio</h3>
                 <div>
@@ -89,7 +73,7 @@
                                 src="image/instagram7.webp" alt="Instagram"></a>
                     </div>
                 </div>
-                <div>
+                <div class="secondReference">
                     <video controls>
                         <source src="image/7.mp4" type="video/mp4">
                         Tu navegador no soporta el tag de video.
@@ -108,8 +92,8 @@
             </section>
             <section id="sendEmail">
                 <div id="sendEmails" class="d-flex flex-column p-3 m-3 rounded">
-                    <h3>Enviar correo electronico</h3>
-                    <form action="https://formsubmit.co/Ivanbmthbvb@gmail.com" method="POST">
+                    <h3 class="p-2">Enviar correo electronico</h3>
+                    <form class="d-flex flex-column align-items-center" action="https://formsubmit.co/Ivanbmthbvb@gmail.com" method="POST">
                         <input class="m-2 px-2 py-3 rounded" type="text" name="Question"
                             placeholder="Escribí tu pregunta..." required>
 

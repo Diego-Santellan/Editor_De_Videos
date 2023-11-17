@@ -1,13 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-    /* border: #11B8AC 1px solid; */
 }
 #redes{
     max-width: 55px;
-}
-body{
-    color: white !important;
 }
 
 
@@ -20,9 +16,11 @@ header{
     background-position: center 0;
 }
 header h1{
+    margin-left: 15px ;
     color: #11B8AC;
 }
 header h2, main h3, p, li{
+    margin-left: 15px ;
     color: white;
 } 
 
@@ -67,16 +65,8 @@ section#aboutMe b{
     color: #11B8AC;
 }
 
-section#services{
-    display: none;
-}
-section#services div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-section#portfolio h3, section#portfolio div div p b {
+section#portfolio h3, section#portfolio div div p b, div#gallery h2{
  color: #c4fe3c;
 }
 section#portfolio div button{
@@ -99,7 +89,6 @@ section#sendEmail div#sendEmails, div#sendEmails form button{
 section#sendEmail form input{
     border: none;
 }
-
 section#sendEmail div h3{
     color: #302DC7;
 } 
@@ -128,4 +117,130 @@ main div#gallery{
     display: flex;
     flex-direction: column;
     
+}
+main div#gallery div#videoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+    main div#gallery div#videoContainer { 
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header, footer{
+        background-size: cover;
+        background-position: center 0;
+    }
+    header h1{
+        font-size: 70px;
+    }
+    header h2{
+        font-size: 35px;
+    }
+    nav.w-100 div a{
+        font-size: 25px;
+    }
+    a#aNavbar{
+        font-size: 20px;
+    }
+    section h3, footer div h3{
+        font-size: 33px;
+    }
+    section div h4{
+        font-size: 30px;
+    }
+    p{
+        font-size: 24px;
+    }
+
+    section#portfolio div{
+        margin: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    section#portfolio div.secondReference{
+        flex-direction: row-reverse;
+    }
+    section#portfolio div div{
+        flex-direction: column;
+        margin: 20px;
+    }
+    section#portfolio button{
+        font-size: 24px;
+    }
+    section#sendEmail form {
+        width: 50vw;
+    }
+    section#sendEmail form input, section#sendEmail form button{
+        font-size: 20px;
+        width: 80%;
+    }
+    footer div#contacto div.redes a img{
+        width: 90px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    header h1{
+        font-size: 80px;
+    }
+    header h2{
+        font-size: 45px;
+    }
+    nav.w-100 div a{
+        font-size: 30px;
+    }
+    a#aNavbar{
+        font-size: 25px;
+    }
+    section h3, footer div h3{
+        font-size: 40px;
+    }
+    section div h4{
+        font-size: 32px;
+    }
+    p{
+        font-size: 27px;
+    }
+/* 
+    section#portfolio div{
+        margin: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+    section#portfolio div.secondReference{
+        flex-direction: row-reverse;
+    }
+    section#portfolio div div{
+        flex-direction: column;
+        margin: 20px;
+    }
+    */
+    section#portfolio button{
+        font-size: 30px;
+    }
+
+/*     section#sendEmail form {
+        width: 50vw;
+    } */
+    section#sendEmail form input, section#sendEmail form button{
+        font-size: 24px;
+        /* width: 80%; */
+    }
+    footer div#contacto div.redes a img{
+        width: 100px;
+    }
+
 }
