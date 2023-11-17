@@ -146,6 +146,10 @@ main div#gallery div#videoContainer{
     header h2{
         font-size: 35px;
     }
+    div.collapse{
+        display: flex;
+        justify-content: flex-end;
+    }
     nav.w-100 div a{
         font-size: 25px;
     }
