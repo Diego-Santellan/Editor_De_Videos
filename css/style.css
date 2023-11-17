@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: #11B8AC 1px solid; */
+}
+#redes{
+    max-width: 55px;
+}
+body{
+    color: white !important;
+}
+
+
+/* HEADER */
+header{
+    height: 100vh;
+    background-image: url(../image/editorVideo.gif);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    background-position: center 0;
+}
+header h1{
+    color: #11B8AC;
+}
+header h2, main h3, p, li{
+    color: white;
+} 
+
+/* NAV */
+nav.w-100{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* MAIN*/
+main{
+    background-color: black;
+}
+main section{
+    text-align: center;
+    padding-top: 15vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section div{
+    margin-bottom: 3vh;
+}
+main section div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section div video, main div video{
+    width: 300px;
+}
+
+section#aboutMe{
+    text-align: center;
+    font-size: 14px;
+}
+section#aboutMe h3{
+    color: #11B8AC;
+}
+section#aboutMe b{
+    color: #11B8AC;
+}
+
+section#services{
+    display: none;
+}
+section#services div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#portfolio h3, section#portfolio div div p b {
+ color: #c4fe3c;
+}
+section#portfolio div button{
+    background-color: black;
+    box-shadow:0 0 10px 5px  rgba(196, 254, 62, 0.8);
+    border: #c4fe3c solid 1px;
+}
+section#portfolio div button a{
+    padding: 2px;
+    color: #c4fe3c;
+    text-decoration: none;
+}
+
+section#sendEmail {
+    margin-bottom: 30px;
+}
+section#sendEmail div#sendEmails, div#sendEmails form button{
+    box-shadow: 0 0 10px 5px  rgba(48, 46, 199,0.8) ;
+}
+section#sendEmail form input{
+    border: none;
+}
+
+section#sendEmail div h3{
+    color: #302DC7;
+} 
+
+/* FOOTER */
+footer{
+    padding: 10px;
+    background-image: url(../image/cut-unwanted-pieces.gif);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    background-position: center 0;
+    display: flex;
+    justify-content: center;
+}
+footer div h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+footer a img{
+    width: 60px;
+}
+
+/* GALLERY */
+main div#gallery{
+    display: flex;
+    flex-direction: column;
+    
+}
