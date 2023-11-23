@@ -78,6 +78,28 @@ section#aboutMe b{
 section#portfolio h3, section#portfolio div div p b, div#gallery h2{
  color: #c4fe3c;
 }
+
+section#portfolio div {
+    max-width: 80vw;
+    margin-bottom: 50px;
+    border: solid 2px ;
+    border-radius: 25px;
+    box-shadow:0 0 10px 3px  rgba(196, 254, 62, 0.8);
+    border: #c4fe3c solid 1px;
+}
+section#portfolio div video{
+    margin: 0;
+    max-width: 80vw;
+    max-height:50vh ;
+    border-radius:25px 0 0 25px;
+}
+section#portfolio div.secondReference video{
+    border-radius:0 25px 25px 0;
+}
+section#portfolio div div, section#portfolio div#buttonPortfolio{
+    box-shadow:none;
+    border: none;
+}
 section#portfolio div button{
     background-color: black;
     box-shadow:0 0 10px 5px  rgba(196, 254, 62, 0.8);
